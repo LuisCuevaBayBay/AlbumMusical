@@ -15,6 +15,7 @@ public class ImpriAlbum {
         sal1 = false;
         do{
             System.out.println("Bienvenido al programa para Album Musicales");
+            System.out.println("Favor escoger una de las opciones entre 1 y 3");
             elige = leer.LecturaEntero();
             if (elige <= 3){ MenuDisco();}
             else if (elige == 4) { System.out.println("Gracias por usar el programa!"); sal2 = true;}
